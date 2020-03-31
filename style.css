@@ -1,0 +1,53 @@
+
+.nav{text-align: right;
+	
+
+}
+
+
+.bouton{ position: absolute;
+display: block;
+line-height: normal;
+text-align: right;
+white-space: nowrap;
+align-items: space-between
+;
+justify-content: flex-end; 
+}
+
+.logo { display: flex; justify-content: center; 
+	align-content: center;
+	text-align: center;}
+
+
+#search_bar{
+	display: flex ;
+	flex :wrap; 
+	justify-content: flex-start;
+	align-content: center;
+	align-items:flex-end;
+	flex-wrap: nowrap;
+font: 400 11px;}
+
+
+.footer{ 
+	background-color: grey;
+	height: 100px;
+	width: 100%;
+align-content: flex-end;
+.bottom{align-content: center;}
+
+
+.carre{
+	
+	margin-left: 0px;
+	margin-right: 0;
+	display: inline-block;
+	flex: 0 0 auto;
+	vertical-align: middle;
+	white-space: nowrap;
+	min-width: 65px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
